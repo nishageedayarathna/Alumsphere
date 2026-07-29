@@ -1,0 +1,9 @@
+Copyright (c) 2025 The AlumSphere Project Team
+
+This project was developed as a group assignment for the Management Information Systems (MIS) course.
+
+Permission is granted to view and study the source code for educational and portfolio purposes only.
+
+You may not copy, redistribute, modify, or submit this project as your own academic work without the permission of all project contributors.
+
+This software is provided "as is", without warranty of any kind. The authors are not responsible for any damages arising from its use.
