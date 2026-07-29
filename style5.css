@@ -1,0 +1,118 @@
+/* Reset some basics */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Background image setup */
+body {
+    background-image: url('Images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1565c0;
+    padding: 15px 30px;
+    color: #e3f2fd;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Left side: logo and site info */
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+.site-info h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #bbdefb;
+}
+
+.site-info p {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #90caf9;
+}
+
+/* Right side: login buttons */
+.header-right {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-tab {
+    padding: 10px 22px;
+    background-color: #42a5f5;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 6px rgba(66, 165, 245, 0.5);
+}
+
+.btn-tab:hover {
+    background-color: #1e88e5;
+}
+
+/* Main content styling */
+main {
+    padding: 60px 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    color: #0d47a1;
+    background-color: rgba(255, 255, 255, 0.9); /* translucent white */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Home info */
+.home-info h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.home-info p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Footer */
+.footer {
+    background-color: #0d47a1;
+    color: #e3f2fd;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+}
